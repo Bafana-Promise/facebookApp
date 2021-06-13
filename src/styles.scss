@@ -43,7 +43,6 @@ $whiteIcon: #a0a3a7;
 .header{
     font-family: inherit;
     color: $whiteIcon;
-    // padding-top: 7px;
     font-size: 17px;
     border-radius: 50px;
     height: 41px;
@@ -182,8 +181,32 @@ $whiteIcon: #a0a3a7;
     cursor: pointer;
 }
 .borderContainer{
-    // border: 1px solid #f3f3f2;
     border-radius: 6px;
     padding: 15px;
     background-color: #242526;
+}
+.bottomBorderContainer{
+    border-bottom: 1.5px solid #2e2f30;
+}
+.mainMinosImgs{
+    border-radius: 50%;
+    width: 7%;
+}
+.mat-form-field {
+    display: inline-block;
+    text-align: start !important;
+}
+.inputHeader{
+    width: 92%;
+    border-radius: 50px;
+    height: 41px;
+    background-color: #ffffff1a;
+    input::placeholder{
+    color: #a0a3a7;
+    left: 10px;
+    font-size: 1.0625rem;
+    bottom: 1px;
+    position: absolute;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    }
 }
