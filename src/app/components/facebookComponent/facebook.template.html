@@ -1,0 +1,93 @@
+<div fxLayout="row wrap" style="background: #18191a;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false" fxFill>
+  <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <div fxLayout="row wrap" style="background: #242526; height:53px; border-bottom: 1px solid #a0a3a7;" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="column wrap" class="parentContainer" fxFlex="24" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" class="parentContainer" fxLayoutGap="2px" fxLayoutAlign="space-evenly center" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/fac.svg" style="height: 41px;">
+          <mat-form-field style="text-align: center;" class="whiteColor header" [appearance]="&apos;standard&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput type="text" placeholder="Search Facebook" [required]="false">
+            <mat-icon matPrefix>search</mat-icon>
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="column wrap" fxFlex="40" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxFlex="100" fxLayoutGap="12px" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+          <mat-icon style="color:#2d88ff; border-bottom: 3px solid #2d88ff;">home</mat-icon>
+          <mat-icon class="whiteColor">people_alt</mat-icon>
+          <mat-icon class="whiteColor">ondemand_video</mat-icon>
+          <mat-icon class="whiteColor">storefront</mat-icon>
+          <mat-icon class="whiteColor">groups</mat-icon>
+        </div>
+      </div>
+      <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="end stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" style="padding: 15px;" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="row wrap" fxLayoutGap="4px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/prom.jpg" style="height: 28px;     width: 28px;" class="radius50percent circleImg">
+            <div class="nameContainer">
+              Promise</div>
+          </div>
+          <mat-icon class="whiteColor radius50percent icon">add</mat-icon>
+          <mat-icon class="whiteColor radius50percent icon">maps_ugc</mat-icon>
+          <mat-icon class="whiteColor radius50percent icon">notifications</mat-icon>
+          <mat-icon class="whiteColor radius50percent icon">arrow_drop_down</mat-icon>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" style="height: calc(100vh - 53px);" fxLayoutAlign="space-between start" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="column wrap" style="height: 100%;" class="firstColumnScroller" fxFlex="22" fxLayoutGap="25px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxLayoutGap="12px" fxLayoutAlign="space-evenly stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/prom.jpg" class="mainPic mainImgs">
+          <div class="textName mainText">
+            Promise Ntshalazi</div>
+        </div>
+        <div fxLayout="row wrap" fxLayoutGap="12px" fxLayoutAlign="space-evenly stretch" [fxShow]="true" [fxHide]="false" *ngFor="let sideMenu of sideMenuZ"><img [src]="sideMenu.imagePath" class="mainImgs">
+          <div class="mainText">
+            {{sideMenu.text}}
+          </div>
+        </div>
+        <div fxLayout="row wrap" style="border-bottom: 0.1px solid #a0a3a7;" fxLayoutGap="12px" fxLayoutAlign="space-evenly stretch" [fxShow]="true" [fxHide]="false">
+          <mat-icon class="mainImg mainImgs">expand_more</mat-icon>
+          <div class="mainText">
+            See More</div>
+        </div>
+        <div class="shortcutsCotainer">
+          Your Shortcuts</div>
+        <div fxLayout="row wrap" fxLayoutGap="12px" fxLayoutAlign="space-evenly stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/peeps.png" class="mainPic mainImgs">
+          <div class="textName mainText">
+            Joburg Factory </div>
+        </div>
+      </div>
+      <div fxLayout="column wrap" style="height: 100%;" fxFlex="42" fxLayoutGap="13px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" class="relative" fxFlex="16" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/mino.jpg" class="minoContainer">
+            <div class="txtIconContainer">
+              <div class="createStory backgroundDark">
+                <div class="backgroundblue">
+                  <mat-icon class="txtIcon">add</mat-icon>
+                </div>
+              </div>
+              <div class="childContainer">
+                Create Story</div>
+            </div>
+          </div>
+          <div fxLayout="column wrap" class="relative" fxFlex="16" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false" *ngFor="let centerImage of centerImages"><img [src]="centerImage.facebImg" class="minoContainer"><img [src]="centerImage.facebImg1" class="smaContainer"><span class="jaylenContainer">
+            {{centerImage.text}}</span></div>
+        </div>
+        <div fxLayout="row wrap" class="borderContainer" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/prom.jpg" class="mainPic mainImgs">
+              <mat-form-field style="text-align: center;" class="whiteColor header" [appearance]="&apos;standard&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+                <input matInput type="text" placeholder="What&apos;s on your mind, Promise?" [required]="false">
+
+              </mat-form-field>
+            </div>
+            <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+          </div>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+      </div>
+      <div fxLayout="column wrap" style="height: 100%;" fxFlex="28" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div>
+          wertfghuijkl;ftvghbnj</div>
+      </div>
+    </div>
+  </div>
+</div>

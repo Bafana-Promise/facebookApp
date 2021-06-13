@@ -1,0 +1,189 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+$whiteIcon: #a0a3a7;
+.parentContainer{
+    input::placeholder{
+    color: #a0a3a7;
+    left: 40px;
+    bottom: 2px;
+    position: absolute;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.mat-form-field-infix {
+    display: block;
+    position: relative;
+    flex: auto;
+    min-width: 0;
+    width: 240px;
+}
+.mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-prefix .mat-icon, .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon {
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 11px;
+}
+
+}
+.whiteColor{
+    color: $whiteIcon;
+}
+.mat-form-field-appearance-standard .mat-form-field-underline{
+    height: 0 !important;
+    display: none !important;
+}
+.mat-form-field-appearance-standard .mat-form-field-flex {
+    padding-top: 0 !important; 
+}
+.mat-form-field-infix{
+    padding: 0 !important;
+}
+
+.header{
+    font-family: inherit;
+    color: $whiteIcon;
+    // padding-top: 7px;
+    font-size: 17px;
+    border-radius: 50px;
+    height: 41px;
+    background-color: #ffffff1a;
+}
+
+.radius50percent{
+    border-radius: 50%;
+}
+.icon{
+    background-color: #ffffff1a;
+}
+.nameContainer{
+    font-family: sans-serif;
+    color: $whiteIcon;
+    margin-top: 6px;
+}
+.mainImgs{
+   width: 10%;
+   border-radius: 50%; 
+}
+.mainText{
+    top: 4px;
+    position: relative;
+    width: 80%;
+    color: #d5d7db;
+    font-weight:700;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.mainImg{
+   color: #d5d7db;
+   background-color: #ffffff1a;
+}
+.mainPic{
+   margin-top: 30px; 
+}
+.textName{
+  margin-top: 30px; 
+}
+
+.shortcutsCotainer{
+    margin: 0 !important;
+    color: #d5d7db;
+    position: relative;
+    left: 18px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.minoContainer{
+    width: 106.76px;
+    height: 189.63px;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+.txtIconContainer{
+    position: absolute;
+    top: 160px;
+    background-color: #242526;
+    height: 50px;
+    width: 106.76px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.childContainer{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: 600;
+    color: #e1e5d7;
+    font-size: 0.8125rem;
+    position: absolute;
+    bottom: 6px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.backgroundblue{
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #2e89ff;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3.9px;
+    top: 3.9px;
+    cursor: pointer;
+}
+.txtIcon{
+    font-size: 32px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    color: #d5d7db;
+    cursor: pointer;
+}
+.backgroundDark{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 43px;
+    height: 43px;
+    background-color: #242526;
+    border-radius: 50%;
+    position: absolute;
+    left: 33px;
+    bottom: 22px;
+}
+
+.smaContainer{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 7px;
+    top: 29px;
+    border: 5px solid #2e89ff;
+}
+
+.jaylenContainer{
+    position: absolute;
+    top: 185px;
+    color: #f3f3f2;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 0.99rem;
+    left: 6px;
+    cursor: pointer;
+}
+.borderContainer{
+    // border: 1px solid #f3f3f2;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #242526;
+}
