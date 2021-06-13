@@ -1,6 +1,6 @@
 <div fxLayout="row wrap" style="background: #18191a;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false" fxFill>
   <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-    <div fxLayout="row wrap" style="background: #242526; height:53px; border-bottom: 1px solid #a0a3a7;" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+    <div fxLayout="row wrap" style="background: #242526; height:53px; border-bottom: 1.5px solid #2e2f30;" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
       <div fxLayout="column wrap" class="parentContainer" fxFlex="24" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
         <div fxLayout="row wrap" class="parentContainer" fxLayoutGap="2px" fxLayoutAlign="space-evenly center" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/fac.svg" style="height: 41px;">
           <mat-form-field style="text-align: center;" class="whiteColor header" [appearance]="&apos;standard&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
@@ -42,7 +42,7 @@
             {{sideMenu.text}}
           </div>
         </div>
-        <div fxLayout="row wrap" style="border-bottom: 0.1px solid #a0a3a7;" fxLayoutGap="12px" fxLayoutAlign="space-evenly stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" style="border-bottom: 1.5px solid #2e2f30;" fxLayoutGap="12px" fxLayoutAlign="space-evenly stretch" [fxShow]="true" [fxHide]="false">
           <mat-icon class="mainImg mainImgs">expand_more</mat-icon>
           <div class="mainText">
             See More</div>
@@ -70,10 +70,10 @@
           <div fxLayout="column wrap" class="relative" fxFlex="16" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false" *ngFor="let centerImage of centerImages"><img [src]="centerImage.facebImg" class="minoContainer"><img [src]="centerImage.facebImg1" class="smaContainer"><span class="jaylenContainer">
             {{centerImage.text}}</span></div>
         </div>
-        <div fxLayout="row wrap" class="borderContainer" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-            <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/prom.jpg" class="mainPic mainImgs">
-              <mat-form-field style="text-align: center;" class="whiteColor header" [appearance]="&apos;standard&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+        <div fxLayout="row wrap" class="borderContainer" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <div fxLayout="row wrap" class="parentContainer bottomBorderContainer" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/prom.jpg" class="mainMinosImgs">
+              <mat-form-field style="text-align: center;" class="inputHeader" [appearance]="&apos;standard&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
                 <input matInput type="text" placeholder="What&apos;s on your mind, Promise?" [required]="false">
 
               </mat-form-field>
