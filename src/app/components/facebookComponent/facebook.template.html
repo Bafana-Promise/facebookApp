@@ -72,16 +72,40 @@
         </div>
         <div fxLayout="row wrap" class="borderContainer" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false">
           <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-            <div fxLayout="row wrap" class="parentContainer bottomBorderContainer" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/prom.jpg" class="mainMinosImgs">
+            <div fxLayout="row wrap" class="parentContainer" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/prom.jpg" class="mainMinosImgs">
               <mat-form-field style="text-align: center;" class="inputHeader" [appearance]="&apos;standard&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
                 <input matInput type="text" placeholder="What&apos;s on your mind, Promise?" [required]="false">
 
               </mat-form-field>
             </div>
-            <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+            <div class="bottomBorderContainer">
+            </div>
+            <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+              <div fxLayout="column wrap" fxFlex="29" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="row wrap" fxFlex="100" fxLayoutGap="12px" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-icon style="color: #f02849;" class="fontSize">videocam</mat-icon>
+                  <div class="txtSize">
+                    Live Video</div>
+                </div>
+              </div>
+              <div fxLayout="column wrap" fxFlex="29" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="row wrap" fxFlex="100" fxLayoutGap="12px" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-icon style="color: #45bd62;" class="fontSize">photo_library</mat-icon>
+                  <div class="txtSize">
+                    Photo/Video</div>
+                </div>
+              </div>
+              <div fxLayout="column wrap" fxFlex="29" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="row wrap" fxFlex="100" fxLayoutGap="12px" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-icon style="color: #f7b928;" class="fontSize">mood</mat-icon>
+                  <div class="txtSize">
+                    Feelings/Activity</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+        <div fxLayout="row wrap" class="borderContainer" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
         <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
       </div>
       <div fxLayout="column wrap" style="height: 100%;" fxFlex="28" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
