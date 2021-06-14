@@ -2,7 +2,7 @@
   <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
     <div fxLayout="row wrap" style="background: #242526; height:53px; border-bottom: 1.5px solid #2e2f30;" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
       <div fxLayout="column wrap" class="parentContainer" fxFlex="24" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-        <div fxLayout="row wrap" class="parentContainer" fxLayoutGap="2px" fxLayoutAlign="space-evenly center" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/fac.svg" style="height: 41px;">
+        <div fxLayout="row wrap" class="parentContainer" fxLayoutGap="1px" fxLayoutAlign="space-evenly center" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/fac.svg" style="height: 41px;">
           <mat-form-field style="text-align: center;" class="whiteColor header" [appearance]="&apos;standard&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
             <input matInput type="text" placeholder="Search Facebook" [required]="false">
             <mat-icon matPrefix>search</mat-icon>
@@ -54,9 +54,9 @@
             Joburg Factory </div>
         </div>
       </div>
-      <div fxLayout="column wrap" style="height: 100%;" fxFlex="42" fxLayoutGap="13px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="column wrap" style="height: 100%;" class="relative" fxFlex="42" fxLayoutGap="13px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
         <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false">
-          <div fxLayout="column wrap" class="relative" fxFlex="16" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/mino.jpg" class="minoContainer">
+          <div fxLayout="column wrap" class="relative" fxFlex="16" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/mino.jpg" class="imgLightContainer minoContainer">
             <div class="txtIconContainer">
               <div class="createStory backgroundDark">
                 <div class="backgroundblue">
@@ -105,12 +105,88 @@
             </div>
           </div>
         </div>
-        <div fxLayout="row wrap" class="borderContainer" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
-        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+        <div fxLayout="row wrap" class="borderContainer" fxLayoutGap="12px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="row wrap" class="blueBorder" fxLayoutGap="15px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <mat-icon class="videoCall">video_call</mat-icon>
+            <div class="txtColor">
+              Create Room</div>
+          </div>
+          <div fxLayout="column wrap" class="relative" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/baby.jpg" class="circleImg"></div>
+          <div fxLayout="column wrap" class="relative" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false" *ngFor="let cirleFace of cirleFaces"><img [src]="cirleFace.facebImg" class="circleImg">
+            <div class="darkgreyColor">
+              <div class="greenBackgroungColor">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="row wrap" class="borderContainer parentContainer" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" fxFlex="100" fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/indian.jpg" class="mainMinosImgs">
+              <div fxLayout="column wrap" fxFlex="91" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+                  <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                    <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                      <div class="textCotianer">
+                        Ridwan Sandra</div>
+                      <mat-icon class="iconColor">arrow_right</mat-icon>
+                      <div class="textCotianer">
+                        Roodepoort Snuffelgids</div>
+                    </div>
+                  </div>
+                  <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                    <mat-icon style="color: #b1b1b1;">linear_scale</mat-icon>
+                  </div>
+                </div>
+                <div style="color: #b1b1b1;  font-size: 12px;">
+                  22h .<mat-icon class="iconPosition">groups</mat-icon>
+                </div>
+              </div>
+            </div>
+            <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+              <div style="color: #E4E6EB;">
+                I can&apos;t promise to make you a billionaire but I teach how you can work from home and earn AED10,500 in 1day and AED75,400 , in 3days No scam No reference needed No Registration fee needed ASK ME HOW ?</div>
+            </div>
+          </div>
+        </div><img imgSrc="/Web/Icons/cloud.jpg" class="positionImg picContainer">
       </div>
-      <div fxLayout="column wrap" style="height: 100%;" fxFlex="28" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
-        <div>
-          wertfghuijkl;ftvghbnj</div>
+      <div fxLayout="column wrap" fxFlex="28" fxLayoutGap="13px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+          <div class="marginTopContainer">
+            Sponsored</div>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="none center" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" fxFlex="34" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/Web/Icons/light.jpg" style="width: 72%;" class="imgLightContainer"></div>
+          <div fxLayout="column wrap" fxFlex="64" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <div class="textWidth">
+              *** Pack of 4** 300W Solar Street Lamp With Motion Sensor &amp; Day/Night Sensor (R1699 each)</div>
+          </div>
+        </div>
+        <div class="padding bottomBorderContainer">
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" fxFlex="23" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <div class="marginTxtContainer">
+              Contacts</div>
+          </div>
+          <div fxLayout="column wrap" fxFlex="32" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <div fxLayout="row wrap" class="padding" fxFlex="100" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+              <mat-icon class="textWidth">video_call</mat-icon>
+              <mat-icon class="textWidth">search</mat-icon>
+              <mat-icon class="textWidth">linear_scale</mat-icon>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="row wrap" fxLayoutGap="12px" fxLayoutAlign="space-evenly stretch" [fxShow]="true" [fxHide]="false" *ngFor="let sideMenu of imagesPerson">
+          <div fxLayout="column wrap" class="relative" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><img [src]="sideMenu.imagePath" class="imgContainer">
+            <div class="darkgreyColor">
+              <div class="greenBackgroungColor">
+              </div>
+            </div>
+          </div>
+          <div class="marginBottom mainText">
+            {{sideMenu.text}}
+          </div>
+        </div>
       </div>
     </div>
   </div>

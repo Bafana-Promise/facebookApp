@@ -100,7 +100,6 @@ $whiteIcon: #a0a3a7;
 .minoContainer{
     width: 106.76px;
     height: 189.63px;
-    border-radius: 10px;
     margin-top: 20px;
     position: relative;
 }
@@ -219,5 +218,110 @@ $whiteIcon: #a0a3a7;
     top: 5px;
     font-weight: 600;
     font-size: .9375rem;
-    color: #B0B3B8;
+    color: rgb(177, 177, 177);
+}
+
+.blueBorder{
+    position: relative;
+    border: 1px solid #4289cd;
+    border-radius: 50px;
+    padding: 5px;
+}
+.txtColor{
+    font-weight: 600;
+    color: #3f8ff9;
+    position: relative;
+    left: -1px;
+    top: 3px;
+}
+.videoCall{
+    color: #bd49b8;
+    font-size: 29px;
+    position: relative;
+    bottom: 3px;
+    left: 5px;
+}
+
+.circleImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.darkgreyColor{
+    background-color: #2e2f30;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 28px;
+    top: 28px;
+}
+
+.greenBackgroungColor{
+    background-color: #31a24c;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.textCotianer{
+    color: #E4E6EB;
+    font-weight: 600;
+    font-size: .9375rem;
+}
+
+.iconColor{
+    color: #b1b1b1;
+    position: relative;
+    bottom: 4px;
+}
+
+.iconPosition{
+    position: relative;
+    left: 3px;
+    top: 5px;
+    font-size: 20px;
+}
+
+.picContainer{
+    height: 116px;
+    margin-top: -15px;
+}
+
+.marginTopContainer{
+    margin-top: 24px;
+    color: #b1b1b1;
+    font-size: 17px;
+    font-weight: 600;
+}
+.marginTxtContainer{
+    color: #b1b1b1;
+    font-size: 17px;
+    font-weight: 600;
+}
+.positionImg{
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    height: 17%;
+}
+.textWidth{
+    color: #b1b1b1;
+}
+.imgLightContainer{
+    border-radius: 10px;
+}
+.padding{
+    padding: 12px;
+}
+
+.imgContainer{
+    margin-bottom: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }

@@ -18,6 +18,44 @@ import { HeroService } from '../../services/hero/hero.service';
 })
 
 export class facebookComponent extends NBaseComponent implements OnInit {
+ 
+    imagesPerson:any[] = [
+        {imagePath: "../../assets/Web/Icons/sthe.jpg",
+         text: "Jaylen"
+        },
+        {imagePath: "../../assets/Web/Icons/nothabo.jpg",
+         text: "Nothabo"
+        },
+        {imagePath: "../../assets/Web/Icons/baby.jpg",
+         text: "Mimi"
+        },
+        {imagePath: "../../assets/Web/Icons/indian.jpg",
+         text: "Jayzin"
+        },
+        {imagePath: "../../assets/Web/Icons/shirt.jpg",
+         text: "Pages"
+        },
+        
+        {imagePath: "../../assets/Web/Icons/babyj.jpg",
+         text: "Memories"
+        }
+    ]
+    cirleFaces:any[] = [
+        
+        {facebImg: "../../assets/Web/Icons/sketch.jpg"},
+ 
+        {facebImg: "../../assets/Web/Icons/bookimg.jpg"},
+
+        {facebImg: "../../assets/Web/Icons/shirt.jpg"},
+ 
+        {facebImg: "../../assets/Web/Icons/babyj.jpg"},
+
+        {facebImg: "../../assets/Web/Icons/quote.jpg"},
+   
+        {facebImg: "../../assets/Web/Icons/chicken.jpg"}
+        
+    ]
+
     centerImages:any[] = [
         {facebImg: "../../assets/Web/Icons/sma.jpg",
         facebImg1: "../../assets/Web/Icons/sthe.jpg",
